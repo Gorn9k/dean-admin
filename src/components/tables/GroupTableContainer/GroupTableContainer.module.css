@@ -1,0 +1,24 @@
+.groupTableContainer {
+    height: calc(90vh - 180px);
+    width: auto;
+    margin-top: 30px
+}
+
+.menuListContainer {
+    position: absolute;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1000
+}
+
+.menuList {
+    list-style: none;
+    padding: 10px;
+    margin: 0
+}
+
+.menuListItem {
+    padding: 5px 10px;
+    cursor: pointer
+}

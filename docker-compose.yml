@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PUBLIC_URL: /dean-admin
+    ports:
+      - "3000:80"

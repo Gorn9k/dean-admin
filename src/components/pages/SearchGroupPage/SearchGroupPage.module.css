@@ -1,0 +1,12 @@
+.selectsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.selectsContainer > div {
+    width: 250px;
+}

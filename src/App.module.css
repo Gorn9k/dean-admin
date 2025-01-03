@@ -1,0 +1,149 @@
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #495471;
+  border-radius: 5px
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+header {
+  background: #434c63;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+header div {
+  flex: 1;
+  padding-right: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+header div a {
+  height: 10vh;
+  align-content: center;
+  padding: 0 20px 0 20px;
+  border-radius: 30px;
+}
+
+main {
+  overflow: auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, main {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF
+}
+
+.content {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.dialogContent {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstModal {
+  z-index: 1000
+}
+
+.secondModal {
+  z-index: 1001
+}
+
+.thirdModal {
+  z-index: 1002
+}
+
+h2 {
+  text-align: center;
+}
+
+.formButton {
+  color: #FFFFFF;
+  font-size: 1.25em;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px 0 0;
+  border: 1px;
+}
+
+.button {
+  background: #353f57;
+  border-radius: 7px;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.singleButton, .singleSelect {
+  align-self: center;
+}
+
+.waitContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.waitMessage {
+  font-size: 50pt;
+  height: 10vh;
+  text-align: center;
+}
+
+.lineThrough {
+  text-decoration: line-through red;
+}
+
+.menuListContainer {
+  position: absolute;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 1000
+}
+
+.menuList {
+  list-style: none;
+  padding: 10px;
+  margin: 0
+}
+
+.menuListItem {
+  padding: 5px 10px;
+  cursor: pointer
+}

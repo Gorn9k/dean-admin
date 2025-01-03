@@ -1,0 +1,7 @@
+.selectsContainer {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+    align-self: center;
+}

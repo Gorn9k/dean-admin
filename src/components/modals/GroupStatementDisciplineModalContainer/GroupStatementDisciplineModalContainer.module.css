@@ -1,0 +1,10 @@
+.groupStatisticContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.groupStatisticContainer h2, .smallMarginH2 {
+    margin: 10px 0 10px 0;
+}

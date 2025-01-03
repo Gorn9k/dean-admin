@@ -1,0 +1,22 @@
+.addButtonMargin {
+    margin: 0 0 10px 0
+}
+
+.tableContainerHeight {
+    height: calc(80vh - 200px);
+}
+
+.checkboxStudents {
+    align-self: end;
+}
+
+.groupStatisticContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.groupStatisticContainer h2 {
+    margin: 10px 0 10px 0;
+}
